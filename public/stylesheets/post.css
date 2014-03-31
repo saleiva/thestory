@@ -6,17 +6,17 @@ div.post {
 }
 /* line 7, ../../sass/post.scss */
 div.post h1 {
+  margin: 0 100px 0 100px;
+  max-width: 640px;
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-size: 53px;
   color: #333;
-  max-width: 640px;
-  margin: 0 100px 0 100px;
 }
 /* line 15, ../../sass/post.scss */
 div.post h1:after {
-  margin: 42px 0 50px 0;
   content: "";
+  margin: 42px 0 50px 0;
   display: block;
   width: 300px;
   height: 3px;
@@ -25,21 +25,20 @@ div.post h1:after {
 /* line 25, ../../sass/post.scss */
 div.post p {
   margin: 25px 100px 0 100px;
-  color: #444;
   line-height: 25px;
+  color: #444;
 }
 /* line 30, ../../sass/post.scss */
 div.post p a {
   color: #ff5a6f;
   text-decoration: none;
 }
-/* line 34, ../../sass/post.scss */
+/* line 33, ../../sass/post.scss */
 div.post p a:hover {
   text-decoration: underline;
 }
-/* line 42, ../../sass/post.scss */
+/* line 38, ../../sass/post.scss */
 div.post img {
   margin: 20px -100px 20px -100px;
-  min-width: 960px;
-  max-width: 960px;
+  width: 960px;
 }

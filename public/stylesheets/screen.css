@@ -71,11 +71,11 @@ body {
 }
 /* line 8, ../../sass/screen.scss */
 body div#header {
+  display: block;
   position: fixed;
   top: 0px;
-  padding: 24px 0 0 0;
   width: 100%;
-  display: block;
+  padding: 24px 0 0 0;
   background-color: white;
 }
 /* line 16, ../../sass/screen.scss */
@@ -84,24 +84,24 @@ body div#header div.wrapper {
   margin: 0 auto 0 auto;
   text-align: left;
 }
-/* line 22, ../../sass/screen.scss */
+/* line 21, ../../sass/screen.scss */
 body div#header div.wrapper h3 {
   margin: 0 0 28px 0;
 }
-/* line 24, ../../sass/screen.scss */
+/* line 23, ../../sass/screen.scss */
 body div#header div.wrapper h3 a {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 13px;
   font-weight: 300;
-  color: #999;
   text-decoration: none;
+  color: #999;
 }
-/* line 32, ../../sass/screen.scss */
+/* line 31, ../../sass/screen.scss */
 body div#header div.wrapper h3 a:hover {
   color: #333;
 }
-/* line 39, ../../sass/screen.scss */
+/* line 36, ../../sass/screen.scss */
 body div#header:after {
   content: "";
   display: block;

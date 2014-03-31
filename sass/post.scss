@@ -5,16 +5,16 @@ div.post{
 	text-align: left;
 
 	h1{
+		margin: 0 100px 0 100px;
+		max-width: 640px;
 		font-family: 'Roboto Slab', serif;
 		font-weight: 400;
 		font-size: 53px;
 		color: #333;
-		max-width: 640px;
-		margin: 0 100px 0 100px;
 
 		&:after{
-			margin: 42px 0 50px 0;
 			content: "";
+			margin: 42px 0 50px 0;
 			display: block;
 			width: 300px;
 			height: 3px;
@@ -24,25 +24,20 @@ div.post{
 
 	p{
 		margin: 25px 100px 0 100px;
-		color: #444;
 		line-height: 25px;
+		color: #444;
 
 		a{
 			color: #ff5a6f;
 			text-decoration: none;
-
-			&:hover{
-				text-decoration: underline;
-			}
-
+			&:hover{ text-decoration: underline; }
 		}
 
 	}
 
 	img{
 		margin: 20px -100px 20px -100px;
-		min-width: 960px;
-		max-width: 960px;
+		width: 960px;
 	}
 
 }
