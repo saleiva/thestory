@@ -1,0 +1,48 @@
+
+div.post{
+	margin: 160px auto 0 auto;
+	width: 960px;
+	text-align: left;
+
+	h1{
+		font-family: 'Roboto Slab', serif;
+		font-weight: 400;
+		font-size: 53px;
+		color: #333;
+		max-width: 640px;
+		margin: 0 100px 0 100px;
+
+		&:after{
+			margin: 42px 0 50px 0;
+			content: "";
+			display: block;
+			width: 300px;
+			height: 3px;
+			background-color: #333;
+		}
+	}
+
+	p{
+		margin: 25px 100px 0 100px;
+		color: #444;
+		line-height: 25px;
+
+		a{
+			color: #ff5a6f;
+			text-decoration: none;
+
+			&:hover{
+				text-decoration: underline;
+			}
+
+		}
+
+	}
+
+	img{
+		margin: 20px -100px 20px -100px;
+		min-width: 960px;
+		max-width: 960px;
+	}
+
+}
